@@ -77,7 +77,6 @@ echo "Configuring FFmpeg for $ABI..."
     --enable-gpl \
     --enable-version3 \
     --enable-nonfree \
-    --enable-postproc \
     --enable-avdevice \
     --enable-swscale \
     --enable-swresample \
