@@ -3,13 +3,13 @@
 🎬 Automated FFmpeg shared library and binary builder for Android. This script builds FFmpeg with full codec support and hardware acceleration for multiple Android architectures.
 
 [![License](https://img.shields.io/badge/License-LGPL-blue.svg)](LICENSE)
-[![FFmpeg Version](https://img.shields.io/badge/FFmpeg-7.1-red.svg)](https://ffmpeg.org/releases/ffmpeg-7.1.tar.bz2)
-[![GitHub last commit](https://img.shields.io/github/last-commit/husen-hn/ffmpeg-android-binary?label=Last%20Update)](https://github.com/husen-hn/ffmpeg-android-binary/commits/main)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/husen-hn/ffmpeg-android-binary)](https://github.com/husen-hn/ffmpeg-android-binary/releases/latest)
+[![FFmpeg Version](https://img.shields.io/badge/FFmpeg-9.0.1-green.svg)](https://ffmpeg.org/releases/ffmpeg-9.0.1.tar.bz2)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Ero-gamer/ffmpeg-android-binary?label=Last%20Update)](https://github.com/Ero-gamer/ffmpeg-android-binary/commits/main)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Ero-gamer/ffmpeg-android-binary)](https://github.com/Ero-gamer/ffmpeg-android-binary/releases/latest)
 
 ## 🚀 Features
 
-- FFmpeg 7.1 with full codec and format support
+- FFmpeg 9.0.1 with full codec and format support
 - Supported architectures:
   - arm64-v8a
   - armeabi-v7a
@@ -21,7 +21,7 @@
 - All encoders and decoders
 - All muxers and demuxers
 - All protocols enabled
-- ffmpeg and ffprobe binaries included
+- ffmpeg binaries included
 
 ## 📋 Prerequisites
 
@@ -64,7 +64,7 @@ brew install automake yasm nasm pkg-config wget
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/husen-hn/android-ffmpeg-builder.git
+git clone https://github.com/Ero-gamer/android-ffmpeg-builder.git
 cd android-ffmpeg-builder
 ```
 
@@ -87,7 +87,6 @@ android/project_output/
 ├── arm64-v8a/
 │   ├── bin/
 │   │   ├── ffmpeg
-│   │   └── ffprobe
 │   └── lib/
 │       ├── libavcodec.so
 │       ├── libavdevice.so
@@ -119,12 +118,12 @@ The script builds FFmpeg with these features:
 
 ### Latest Release
 
-[![Latest Release](https://img.shields.io/github/v/release/husen-hn/ffmpeg-android-binary)](https://github.com/husen-hn/ffmpeg-android-binary/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/Ero-gamer/ffmpeg-android-binary)](https://github.com/Ero-gamer/ffmpeg-android-binary/releases/latest)
 
-Pre-built binaries are available in the [Releases](https://github.com/husen-hn/ffmpeg-android-binary/releases) section. Each release includes:
+Pre-built binaries are available in the [Releases](https://github.com/Ero-gamer/ffmpeg-android-binary/releases) section. Each release includes:
 
 - Built `.so` files for all supported architectures (arm64-v8a, armeabi-v7a, x86_64)
-- ffmpeg and ffprobe binaries
+- ffmpeg binaries
 - Build information and checksums
 - Source code archive
 
@@ -134,7 +133,7 @@ Pre-built binaries are available in the [Releases](https://github.com/husen-hn/f
 
 ```bash
 # Change this line
-FFMPEG_VERSION="7.1"
+FFMPEG_VERSION="9.0.1"
 ```
 
 2. Download the new FFmpeg source:
