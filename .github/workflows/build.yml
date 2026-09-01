@@ -13,12 +13,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7.0.1
 
       - name: Set up NDK
-        uses: nsetup/setup-ndk@v3
+        uses: nttld/setup-ndk@v1.6.0
         with:
-          ndk-version: r26b
+          ndk-version: r29
           link-to-sdk: true
 
       - name: Make script executable
